@@ -1,117 +1,121 @@
-🌍 TravelBot - Personalized AI Travel Planner
-TravelBot is an intelligent AI-powered chatbot designed to help users plan personalized travel experiences. Using Gemini 2.5 Pro, LangChain, and Streamlit, TravelBot understands user intent, tracks preferences, and recommends the best travel destinations with detailed insights.
-🚀 Features
-Intelligent User Intent Understanding
+# 🌍 TravelBot - Personalized AI Travel Planner
 
-Classifies trips: solo, family, or with friends
+#### TravelBot is an intelligent AI-powered chatbot designed to help users plan personalized travel experiences. Using Gemini 2.5 Pro, LangChain, and Streamlit, TravelBot understands user intent, tracks preferences, and recommends the best travel destinations with detailed insights.
 
-Identifies trip types: adventure, beach, honeymoon, nature, spiritual, etc.
+## 🚀 Features
 
-Extracts key details: destination, budget, trip duration, preferred month/season, and interests
+### Intelligent User Intent Understanding
 
-Stateful Conversation Management
+##### Classifies trips: solo, family, or with friends
 
-Persists user preferences across multiple interactions
+##### Identifies trip types: adventure, beach, honeymoon, nature, spiritual, etc.
 
-Retrieves context for returning users
+##### Extracts key details: destination, budget, trip duration, preferred month/season, and interests
 
-Ensures recommendations are always context-aware and personalized
+### Stateful Conversation Management
 
-Destination Recommendations
+##### Persists user preferences across multiple interactions
 
-Suggests 4–5 destinations tailored to user preferences
+##### Retrieves context for returning users
 
-Ranks destinations based on popularity, safety, and seasonal suitability
+##### Ensures recommendations are always context-aware and personalized
 
-Filters out destinations that are closed or inaccessible during the user’s travel time
+### Destination Recommendations
 
-Engaging Travel Content
+##### Suggests 4–5 destinations tailored to user preferences
 
-Provides short, concise, and visually appealing descriptions
+##### Ranks destinations based on popularity, safety, and seasonal suitability
 
-Includes travel tips, pros & cons, attractions, and safety guidance
+##### Filters out destinations that are closed or inaccessible during the user’s travel time
 
-Uses bullet points and emojis for readability and engagement
+### Engaging Travel Content
 
-💡 Key Advantages
+##### Provides short, concise, and visually appealing descriptions
 
-Personalized travel recommendations based on budget, duration, and interests
+##### Includes travel tips, pros & cons, attractions, and safety guidance
 
-Ensures destination availability and seasonal appropriateness
+##### Uses bullet points and emojis for readability and engagement
 
-Friendly, easy-to-use chat interface with memory for continuous interaction
+## 💡 Key Advantages
 
-Ideal for planning trips with friends, family, or solo adventures
+##### Personalized travel recommendations based on budget, duration, and interests
 
-🛠 Tech Stack
+##### Ensures destination availability and seasonal appropriateness
 
-AI Model: Gemini 2.5 Pro (Google Generative AI)
+##### Friendly, easy-to-use chat interface with memory for continuous interaction
 
-Framework: LangChain for conversation memory and prompt management
+##### Ideal for planning trips with friends, family, or solo adventures
 
-Frontend: Streamlit for chat interface
+## 🛠 Tech Stack
 
-Environment Variables: python-dotenv for API keys
+##### AI Model: Gemini 2.5 Pro (Google Generative AI)
 
-⚡ Installation & Setup
-1. Clone the repository
-git clone <your-repo-url>
+##### Framework: LangChain for conversation memory and prompt management
+
+###### Frontend: Streamlit for chat interface
+
+##### Environment Variables: python-dotenv for API keys
+
+## ⚡ Installation & Setup
+
+### 1. Clone the repository
+git clone <gh repo clone varnitvishwakarma/-TravelBot->
 cd TravelBot
 
-2. Create a virtual environment
+### 2. Create a virtual environment
 python -m venv travelenv
 
-3. Activate the environment
+#### 3. Activate the environment
 
-Windows (PowerShell):
+#### Windows (PowerShell):
 
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 .\travelenv\Scripts\Activate.ps1
 
 
-Linux/Mac:
+##### Linux/Mac:
 
 source travelenv/bin/activate
 
-4. Install dependencies
+### 4. Install dependencies
 pip install -r requirements.txt
 
-5. Create a .env file in the project root
+### 5. Create a .env file in the project root
 GOOGLE_API_KEY=your_google_api_key_here
 
-6. Run the TravelBot app
+### 6. Run the TravelBot app
 streamlit run app.py
 
-📌 Usage
+## 📌 Usage
 
-Enter your travel preferences in the chat (budget, trip type, month, duration, destination interests).
+##### Enter your travel preferences in the chat (budget, trip type, month, duration, destination interests).
 
-TravelBot will classify your trip, store your preferences, and recommend destinations with helpful tips.
+##### TravelBot will classify your trip, store your preferences, and recommend destinations with helpful tips.
 
-Keep chatting to refine your recommendations!
+##### Keep chatting to refine your recommendations!
 
-🌟 Example Queries
+## 🌟 Example Queries
 
-“I want a 4-day beach trip with friends in December, budget $500–$700.”
+##### “I want a 4-day beach trip with friends in December, budget $500–$700.”
 
-“Plan a solo adventure trip in Himachal Pradesh for January.”
+##### “Plan a solo adventure trip in Himachal Pradesh for January.”
 
-“Suggest romantic honeymoon destinations in March.”
+##### “Suggest romantic honeymoon destinations in March.”
 
-🛡 Privacy & Data Handling
+## 🛡 Privacy & Data Handling
 
-TravelBot stores session memory only temporarily for context-aware recommendations.
+##### TravelBot stores session memory only temporarily for context-aware recommendations.
 
-No personal data is stored permanently or shared externally.
+##### No personal data is stored permanently or shared externally.
 
-💬 Future Enhancements
+## 💬 Future Enhancements
 
-Integrate live destination status from official sources (temple closures, park availability)
+##### Integrate live destination status from official sources (temple closures, park availability)
 
-Add image previews and clickable links for destinations
+##### Add image previews and clickable links for destinations
 
-Multi-language support for international users
+##### Multi-language support for international users
 
-📄 License
+## 📄 License
 
-MIT License — freely use, modify, and distribute.
+##### MIT License — freely use, modify, and distribute.
